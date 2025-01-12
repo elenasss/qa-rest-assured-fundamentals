@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "default": {},
+  "title": "Root Schema",
+  "required": [
+    "id",
+    "name",
+    "releaseDate",
+    "reviewScore",
+    "category",
+    "rating"
+  ],
+  "properties": {
+    "id": {
+      "type": "integer",
+      "default": 0,
+      "title": "The id Schema",
+      "examples": [
+        10
+      ]
+    },
+    "name": {
+      "type": "string",
+      "default": "",
+      "title": "The name Schema",
+      "examples": [
+        "Grand Theft Auto III"
+      ]
+    },
+    "releaseDate": {
+      "type": "string",
+      "default": "",
+      "title": "The releaseDate Schema",
+      "examples": [
+        "2001-04-23 23:59:59"
+      ]
+    },
+    "reviewScore": {
+      "type": "integer",
+      "default": 0,
+      "title": "The reviewScore Schema",
+      "examples": [
+        90
+      ]
+    },
+    "category": {
+      "type": "string",
+      "default": "",
+      "title": "The category Schema",
+      "examples": [
+        "Driving"
+      ]
+    },
+    "rating": {
+      "type": "string",
+      "default": "",
+      "title": "The rating Schema",
+      "examples": [
+        "Mature"
+      ]
+    }
+  },
+  "examples": [{
+    "id": 10,
+    "name": "Grand Theft Auto III",
+    "releaseDate": "2001-04-23 23:59:59",
+    "reviewScore": 90,
+    "category": "Driving",
+    "rating": "Mature"
+  }]
+}

@@ -1,3 +1,5 @@
+package tests;
+
 import config.FootballConfig;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
@@ -9,7 +11,6 @@ import java.util.List;
 
 import static config.URLConstants.*;
 import static io.restassured.RestAssured.given;
-import static io.restassured.RestAssured.when;
 import static io.restassured.RestAssured.get;
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.junit.Assert.assertEquals;

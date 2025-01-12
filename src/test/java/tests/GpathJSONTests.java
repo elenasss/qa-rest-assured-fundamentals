@@ -1,3 +1,5 @@
+package tests;
+
 import config.FootballConfig;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.Test;
@@ -6,7 +8,6 @@ import java.util.List;
 import java.util.Map;
 
 import static io.restassured.RestAssured.given;
-import static io.restassured.RestAssured.when;
 import static io.restassured.RestAssured.get;
 
 

@@ -1,3 +1,5 @@
+package tests;
+
 import config.VideoGameConfig;
 import config.URLConstants;
 import io.restassured.module.jsv.JsonSchemaValidator;
